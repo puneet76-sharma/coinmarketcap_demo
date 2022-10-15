@@ -7,17 +7,25 @@ git clone https://github.com/puneet76-sharma/coinmarketcap_demo.git
 cd coinmarketcap_demo
 
 Create Env
+
 python m -venv venv
 
+
 To activate Env 
+
 venv\Scripts\activate >>> for win users
+
 source venv/bin/activate >> for linux
 
+
 pip install -r requirements.txt
+
+
 
 create DB name "coinmarket" in postgresql
 
 python manage.py migrate
+
 
 python manage.py runserver
 
